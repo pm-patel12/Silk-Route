@@ -42,3 +42,126 @@
     gap: 0rem;
   }
 }
+
+// text styles
+
+@mixin Title_80px_Anton() {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 150%;
+}
+
+@mixin Body_20px_PTSansNarrow() {
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+@mixin Body_16px_PTSansNarrow() {
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+@mixin Body_14px_PTSansNarrow() {
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
+@mixin _2_Header_48px_Anton() {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 150%;
+}
+@mixin _3_Header_30px_Anton() {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 150%;
+}
+@mixin Paragraph_22px_PTSansNarrow() {
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+}
+@mixin Paragraph_22pxBold() {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 150%;
+}
+@mixin Paragraph_30px_PTSansNarrow() {
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 150%;
+}
+@mixin Subline_24_Anton() {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+}
+@mixin _4_Header_34px_Anton() {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 150%;
+}
+@mixin Button_26px_PTSansNarrow() {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 150%;
+}
+@mixin Body_Underline_20px() {
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+}
+@mixin _5_Header_28px_Anton() {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 150%;
+}
+@mixin Header_60px_Anton() {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 150%;
+}
+@mixin Header_32px_Anton() {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+}
+@mixin Parag_24px_Underline_Bold() {
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+}

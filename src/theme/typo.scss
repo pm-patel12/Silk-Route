@@ -1,29 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap");
+// font-family: 'PT Sans Narrow', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+// font-family: 'Anton', sans-serif;
 
 // brand color
+$White: #ffffff;
+$Vivid_Pink: #ff0f7a;
+$Spring_Green: #39ff14;
+$Electric_Purple: #5501ee;
+$Delayed_Yellow: #fcfe00;
+$Deep_Sky_Blue: #36e1ff;
+$Black: #0d0d0d;
 
-$primary: #002248;
-$secondary: #1893f8;
-$secondaryLight: #f1f5f5;
+// gradient colors
+$blue_gradient: linear-gradient(180deg, #5501ef 13.02%, #3effa5 100%);
 
-// Text color
-
-$fontlight: #5c6a7a;
-$fontDark: #002248;
-
-// Other
-
-$white: #ffffff;
-$black: #1b1b1b;
-$hover: #e6f2fc;
+// shadows
+$Main_Title_drop_shadow: 0px 5px 5px rgba(0, 0, 0, 0.56);
 
 //  Font family
-
-$montserrat: "Montserrat", "sans-serif";
-
-// Border Redius
-$BR100: 100px;
-$BR50: 50px;
-$BR10: 10px;
-$BR12: 12px;
-$BR6: 6px;
+$PT_Sans_Narrow: "PT Sans Narrow", sans-serif;
+$Anton: "Anton", sans-serif; ;
