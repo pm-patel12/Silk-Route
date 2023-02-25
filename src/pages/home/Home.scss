@@ -1,0 +1,142 @@
+@use "../../theme/index.scss" as *;
+.homeWrapper {
+  .heroWrapper {
+    position: relative;
+    background-image: url(../../assets/images/heroImages/HeroImg1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 790px;
+    section {
+      .contentWrapper {
+        @include flex(unset, space-between, 0, row, nowrap);
+        .left {
+          flex: 1;
+          padding-top: 115px;
+          h1 {
+            font-size: 80px;
+            font-weight: 400;
+            line-height: 120px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: $White;
+            width: 60%;
+          }
+        }
+        .right {
+          flex: 2;
+        }
+      }
+      .navBar {
+        padding: 0 35px;
+        @include flex(center, space-between, 0, row, nowrap);
+        position: absolute;
+        bottom: 70px;
+        left: 135px;
+        right: 135px;
+        .left {
+        }
+        .navigationDots {
+          @include flex(center, center, 030px, row, nowrap);
+          .bar {
+            width: 70px;
+            height: 16px;
+            top: 696px;
+            background: transparent;
+            border: 2px solid $Spring_Green;
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+            &.active {
+              background: $Spring_Green;
+            }
+          }
+        }
+
+        .right {
+        }
+      }
+    }
+  }
+  .newBeginWrapper {
+    background-color: $Vivid_Pink;
+    padding: 100px;
+    h2 {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 60px;
+      line-height: 150%;
+      text-align: center;
+      width: 100%;
+      color: $Delayed_Yellow;
+      margin: 0;
+      padding: 0;
+    }
+    .wrapper {
+      margin-top: 40px;
+      @include flex(center, unset, 0, row, nowrap);
+      gap: 87px;
+      &.rev {
+        flex-flow: row-reverse;
+        gap: 0px;
+        margin-top: 0;
+        img {
+          transform: matrix(-0.92, 0.39, 0.39, 0.92, 0, 0);
+          width: 346px;
+          height: 209px;
+        }
+      }
+      .left {
+        flex: 1;
+        p {
+          @include Body_20px_PTSansNarrow;
+          text-align: justify;
+          color: $White;
+          margin: 0;
+          span {
+            color: $Delayed_Yellow;
+          }
+        }
+      }
+      .right {
+        flex: 1;
+        img {
+          width: 346px;
+          height: 209.09px;
+        }
+      }
+    }
+    h5 {
+      @include Header_32px_Anton;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      margin-top: 50px;
+      color: $Delayed_Yellow;
+    }
+    a {
+      display: block;
+      width: 100%;
+      @include Parag_24px_Underline_Bold;
+      color: $Spring_Green;
+      text-align: center;
+      width: 100%;
+      margin: auto;
+      margin-top: 38px;
+    }
+  }
+  .companyBio {
+    padding: 100px 70px;
+    background-color: $Spring_Green;
+    h4 {
+      @include Header_60px_Anton;
+      color: $Electric_Purple;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    p {
+      color: $Electric_Purple;
+      @include Body_20px_PTSansNarrow;
+      text-align: justify;
+      margin: 0;
+    }
+  }
+}

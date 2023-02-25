@@ -1,0 +1,42 @@
+@use "../../theme/index.scss" as *;
+
+.headerWrapper {
+  background-color: $Black;
+  position: relative;
+  z-index: 10;
+  &.overlayHeader {
+    margin-bottom: -93px;
+    background-color: transparent;
+  }
+  header {
+    @include flex(center, space-between, 0, row, nowrap);
+    .left {
+      a {
+        img {
+          width: 142px;
+          height: 82px;
+        }
+      }
+    }
+    .right {
+      ul {
+        @include flex(center, center, 0, row, nowrap);
+        margin: 0;
+        padding: 0;
+        li {
+          margin: 30px 28px;
+          a {
+            text-decoration: none;
+            @include Paragraph_22px_PTSansNarrow;
+            color: $White;
+
+            &.active {
+              color: $Delayed_Yellow;
+              font-weight: 700;
+            }
+          }
+        }
+      }
+    }
+  }
+}

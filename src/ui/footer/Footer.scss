@@ -1,0 +1,45 @@
+@use "../../theme/index.scss" as *;
+
+.footerWrapper {
+  background-color: $Black;
+  footer {
+    .wrapper {
+      @include flex(center, unset, 0, row, nowrap);
+      margin-left: 23px;
+      .left {
+        margin-right: 85px;
+        a {
+          img {
+            width: 191.33px;
+            height: 94px;
+            margin-top: 25px;
+          }
+        }
+      }
+      .right {
+        @include flex(center, center, 0, column, nowrap);
+        ul {
+          @include flex(center, center, 36px, row, nowrap);
+          margin: 0;
+          padding: 0;
+
+          li {
+            a {
+              @include Body_16px_PTSansNarrow;
+              color: $White;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+    .copyRightMsg {
+      @include Body_16px_PTSansNarrow;
+      color: $White;
+      width: 100%;
+      text-align: center;
+      padding-bottom: 19px;
+      color: $White;
+    }
+  }
+}
